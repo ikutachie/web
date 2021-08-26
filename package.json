@@ -1,9 +1,14 @@
 {
   "name": "weblog",
+  "engines": {
+    "node":"14.17.4",
+    "npm":"6.14.14"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start":"node app.js",
     "gulp": "gulp",
     "build-dev": "set NODE_ENV=development && gulp",
     "build-prod": "set NODE_ENV=production && gulp",
